@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <form asp-controller="Home" asp-action="Search">
+            <input type="text"  name="movieName" placeholder="Enter moie name..." />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
